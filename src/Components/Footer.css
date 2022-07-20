@@ -6,6 +6,7 @@
     margin-top: 40px;
 }
 .logo1 img{
+    cursor: pointer;
     height: 40px;
     width:180px;
 }
@@ -40,6 +41,17 @@ a:hover{
     gap:30px;
 }
 
-.block3 > a:hover {
+.block3 a:hover {
    color: red;
+}
+.block4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.i{
+    line-height: 20px;
 }

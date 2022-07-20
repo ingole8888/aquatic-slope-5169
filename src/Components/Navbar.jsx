@@ -14,12 +14,12 @@ export default function Navbar(){
                 </div>
 
                 <div className={showMedia ? "menupart mobile-menu":"menupart"}>
-                    
-                    <div><a href="#">Premium</a></div>
-                    <div><a href="#">Reciepes</a></div>
-                    <div><a href="#">Articles</a></div>
-                    <div><a href="#">CookBook</a></div>
-                    <div><a href="#">Support</a></div>
+                    <div><a href="https://www.carbmanager.com/feature-summary">Features</a></div>
+                    <div><a href="https://www.carbmanager.com/premium">Premium</a></div>
+                    <div><a href="https://www.carbmanager.com/recipes">Reciepes</a></div>
+                    <div><a href="https://www.carbmanager.com/articles">Articles</a></div>
+                    <div><a href="https://www.carbmanager.com/cookbook">CookBook</a></div>
+                    <div><a href="https://help.carbmanager.com/">Support</a></div>
                 </div>
 
                 <div className="buttonpart">
