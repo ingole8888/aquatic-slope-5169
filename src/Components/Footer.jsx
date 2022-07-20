@@ -14,34 +14,39 @@ export default function Footer(){
             </div>
 
             <div className="block1">
-                <a href="">Features</a>
-                <a href="">Premium</a>
-                <a href="">Keto Recipes</a>
-                <a href="">Keto Cookbook</a>
-                <a href="">Articles</a>
-                <a href="">About Us</a>
-                <a href="">Foods</a>
-                <a href="">Support</a>
-                <a href="">Log In</a>
-                <a href="">Join For Free</a>
+                <a href="https://www.carbmanager.com/feature-summary">Features</a>
+                <a href="https://www.carbmanager.com/premium">Premium</a>
+                <a href="https://www.carbmanager.com/recipes">Keto Recipes</a>
+                <a href="https://www.carbmanager.com/cookbook">Keto Cookbook</a>
+                <a href="https://www.carbmanager.com/articles">Articles</a>
+                <a href="https://www.carbmanager.com/about-us">About Us</a>
+                <a href="https://www.carbmanager.com/food-index">Foods</a>
+                <a href="https://help.carbmanager.com/">Support</a>
+                <a href="https://my.carbmanager.com/account/signin">Log In</a>
+                <a href="https://my.carbmanager.com/">Join For Free</a>
             </div>
 
             <div className="block2">
-                <a href="">Gift Card</a>
-                <a href="">Support Center</a>
-                <a href="">Forums</a>
-                <a href="">Terms Of Service</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Contact</a>
-                <a href="">System Status</a> 
+                <a href="https://www.carbmanager.com/gift-cards">Gift Card</a>
+                <a href="https://help.carbmanager.com/">Support Center</a>
+                <a href="https://forums.carbmanager.com/">Forums</a>
+                <a href="https://www.carbmanager.com/terms-of-service">Terms Of Service</a>
+                <a href="https://www.carbmanager.com/privacy-policy">Privacy Policy</a>
+                <a href="https://www.carbmanager.com/contact">Contact</a>
+                <a href="https://status.carbmanager.com/">System Status</a> 
             </div>
 
             <div className="block3">
-                <div><a href=""><FaFacebook/></a></div>
-                <div><a href=""><FaInstagram/></a></div>
-                <div><a href=""><FaPinterest/></a></div>
-                <div><a href=""><FaYoutube/></a></div>
+                <div><a href="https://www.facebook.com/carbmanager"><FaFacebook/></a></div>
+                <div><a href="https://www.instagram.com/carbmanagerapp/"><FaInstagram/></a></div>
+                <div><a href="https://www.pinterest.com/carbmanagerapp"><FaPinterest/></a></div>
+                <div><a href="https://www.youtube.com/channel/UCmVTbl7NTm_Cd4rA8XJWUVw?sub_confirmation=1"><FaYoutube/></a></div>
             </div>
+
+            <div className="block4"><p>© 2010-2022 Wombat Apps LLC. All Rights Reserved.</p></div>
+
+            <p><i>Carb Manager's content is for informational and educational purposes only. Our website is not intended to be a substitute for professional</i></p>
+            <p><i>medical advice, diagnosis, or treatment.</i></p>
         </div>
         </>
     )
