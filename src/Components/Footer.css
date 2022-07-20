@@ -1,0 +1,45 @@
+.allfooter{
+    margin: auto;
+}
+.logo1{
+    margin: auto;
+    margin-top: 40px;
+}
+.logo1 img{
+    height: 40px;
+    width:180px;
+}
+.block1{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 13%;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    gap:30px;
+}
+a:hover{
+    color:#1BC98E;
+}
+.block2{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 20%;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 300;
+    gap:30px;
+}
+.block3{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 44%;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 300;
+    gap:30px;
+}
+
+.block3 > a:hover {
+   color: red;
+}

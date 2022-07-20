@@ -1,0 +1,105 @@
+.logo img{
+    height: 50px;
+    width: 200px;
+}
+.buttonjoin{
+    background-color: #1BC98E;
+    color:white;
+    border:2px #1BC98C;
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.main_nav{ 
+    width: 100%;
+    height: 100px;
+    display:grid;
+    grid-template-columns: 50px 1fr 20px 3fr 20px 1fr 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+.menupart{
+    grid-column: 4/5;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonpart{
+    grid-column: 6/7;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonpart1{
+    display: flex;
+    font-size: 20px;
+    gap:5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonpart .hamburger-menu{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .main_nav{
+    height: 100px;
+    grid-template-columns: 20px 2fr 3fr 1fr 20px;
+    }
+    .menupart{
+        display: none;
+    }
+    .logo .buttonpart div{
+        height: 7rem;
+    }
+    .mobile-menu{
+        grid-column: 2/4;
+        position: relative;
+        z-index: 99;
+    }
+    .mobile-menu{
+        height: 300px;
+        display: grid;
+        grid-column: 2/5;
+        align-items: center;
+        padding-left: 3rem;
+        transition: all 2s linear;
+        transform-origin: top;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .mobile-menu div{
+        height: 20rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: start;
+    }
+    .buttonpart{
+        grid-row: 1/2;
+        grid-column: 3/5;
+        justify-items: end;
+        align-items: center;
+        transition: all 2s linear;
+    }
+    .buttonpart{
+        height: 7rem;
+        display: flex;
+        justify-self: end;
+        align-items: center;
+    }
+    .buttonpart .hamburger-menu{
+        display: block;
+        font-size: 2.5rem;
+    }
+}
