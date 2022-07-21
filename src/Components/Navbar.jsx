@@ -24,7 +24,7 @@ export default function Navbar(){
 
                 <div className="buttonpart">
                     <div className="buttonpart1">
-                    <div><a href="">Log In</a></div>
+                    <div><a href="#">Log In</a></div>
                     <div><button className="buttonjoin">Join for Free</button></div>
                     </div>
 
