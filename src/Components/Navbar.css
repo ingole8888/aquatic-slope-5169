@@ -21,6 +21,12 @@ a{
     grid-template-columns: 50px 1fr 20px 3fr 20px 1fr 50px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.main_nav{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
 .logo{
     display: grid;
     grid-column: 2/3;

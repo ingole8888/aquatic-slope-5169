@@ -1,0 +1,61 @@
+.box1{
+    display: grid;
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-right: 50px;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #1BC98E;
+    color: white;
+    text-align: left;
+}
+.box1b img{
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 300px;
+    height: 600px;
+}
+.box1a{
+    padding-top: 100px;
+}
+.box1 h1{
+   font-size: 70px;
+   line-height: 30px;
+}
+.box1a input{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid white;
+    color: gray;
+    border-radius: 20px;
+}
+.box1a button{
+    padding: 10px 10px 10px 10px;
+    margin-left: -40px;
+    cursor: pointer;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.box1a img{
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+.box1as{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.box2{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 90px;
+}
+.box2 img{
+    height: 50px;
+    width: 100px;
+}
