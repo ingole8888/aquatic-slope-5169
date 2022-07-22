@@ -74,6 +74,9 @@
 }
 .box4{
     display: flex;
+    gap:30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .box4a2{
     background-color: #1BC98E;
@@ -83,6 +86,8 @@
     margin-left: 50px;
     margin-top: -250px;
 }
+
+
 .box4 img{
 margin-left: 100px;
 height: 600px;
@@ -92,6 +97,7 @@ border-radius: 20px;
 .box4b{
     margin-left: 100px;
     text-align: left;
+    margin-top: 60px;
 }
 .box4b p{
     text-align: left;
@@ -101,3 +107,80 @@ border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.box4b11{
+    margin-bottom: 15px;
+}
+.box4a22{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: -250px;
+}
+.box5{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap:30px;
+}
+.box5 img{
+    margin-right: 100px;
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+    }
+    .box5a{
+        margin-top: 100px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .box5a p{
+        text-align: left;
+        font-size: 15px;
+    }
+    .box5b2{
+        background-color:orange;
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+        margin-left: 40%;
+        margin-bottom: -250px;
+    }
+    .box6{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .box7{
+        margin: auto;
+        display: grid;
+        width: 85%;
+        margin-bottom: 100px;
+        grid-template-columns: repeat(2,1fr);
+        gap:35px;
+    }
+    .box7a{
+      width: 100%;
+      height: 450px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      cursor: pointer;
+    }
+    .box7a img{
+        width: 100%;
+        height: 50%;
+      }
+      .box7b{
+        display: flex;
+        gap: 20px;
+      }
+      .box7 h2 {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .box7 h4 {
+        margin-left: 30px;
+      }
+      .box7 h5 {
+        margin-left: 30px;
+      }
