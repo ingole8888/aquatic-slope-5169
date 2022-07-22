@@ -26,13 +26,12 @@
     color: gray;
     border-radius: 20px;
 }
-.box1a button{
+.box1a button {
     padding: 10px 10px 10px 10px;
     margin-left: -40px;
     cursor: pointer;
     border: 2px solid red;
     background-color: red;
-    color: white;
     border-radius: 20px;
 }
 .box1a img{
