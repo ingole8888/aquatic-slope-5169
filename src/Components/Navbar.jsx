@@ -1,16 +1,19 @@
 import React, { useState } from "react"
 import "./Navbar.css"
+import {Link} from "react-router-dom"
 import {GiHamburgerMenu} from "react-icons/gi";
 export default function Navbar(){
     const [showMedia, setShowMedia]=useState(false);
     return(
         <>
-          <nav className="main_nav">
+          <div className="main_nav">
                 <div className="logo">
+                   <Link to="/">
                    <img
                    src="https://www.verywellfit.com/thmb/h_u0eP6KSAYTivXlcasVYGCCdjQ=/2052x320/filters:no_upscale():max_bytes(150000):strip_icc()/Carb_Manager-9e916e2ec1614c9a9e5213534c1184b3.jpg"
                    alt="logo"
                    />
+                   </Link>
                 </div>
 
                 <div className={showMedia ? "menupart mobile-menu":"menupart"}>
@@ -21,20 +24,16 @@ export default function Navbar(){
                     <div><a href="https://www.carbmanager.com/cookbook">CookBook</a></div>
                     <div><a href="https://help.carbmanager.com/">Support</a></div>
                 </div>
-
                 <div className="buttonpart">
                     <div className="buttonpart1">
-                    <div><a href="#">Log In</a></div>
-                    <div><button className="buttonjoin">Join for Free</button></div>
+                    <div><Link to="/login">Log In</Link></div>
+                    <div><Link to="/signup" className="buttonjoin">Join for Free</Link></div>
                     </div>
-
-                    <div className="hamburger-menu">
-                         <a href="#" onclick={() => setShowMedia(!showMedia)}>
+                    <div className="hamburger-menu" onclick={() => setShowMedia(!showMedia)}>
                          <GiHamburgerMenu/>
-                         </a>
                     </div>
                 </div>
-          </nav>
+          </div>
         </>
     )
 }

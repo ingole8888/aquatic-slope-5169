@@ -2,7 +2,7 @@
     margin: auto;
 }
 .logo1{
-    margin: auto;
+    margin-left: 42%;
     margin-top: 40px;
 }
 .logo1 img{
@@ -13,7 +13,7 @@
 .block1{
     margin: auto;
     margin-top: 50px;
-    margin-left: 13%;
+    margin-left: 8%;
     display: flex;
     font-size: 1rem;
     font-weight: 600;
@@ -45,10 +45,12 @@ a:hover{
    color: red;
 }
 .block4{
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 p{
+    text-align: center;
     font-size: 13px;
     font-weight: 400;
 }

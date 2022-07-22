@@ -1,4 +1,5 @@
 import "./IndexBody.css"
+import {Link} from "react-router-dom"
 
 export default function IndexBody(){
     return(
@@ -10,7 +11,7 @@ export default function IndexBody(){
                 <h2>The #1 Low-Carb and Keto Diet App</h2>
                 <h3>For healthy & sustainable low-carb living</h3>
                 <input type="text" placeholder="Enter Email Address"/>
-                <button>Create Free Account</button>
+                <button><Link to="/signup">Create Free Account</Link></button>
                 <div className="box1as">
                 <div>
                 <img
