@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaPinterest, FaYoutube } from 'react-icons/fa'
 export default function Footer(){
     return(
         <>
-        <div className="allfooter">
+         <div className="footer">
            <div className="logo1">
                    <img
                    src="https://www.verywellfit.com/thmb/h_u0eP6KSAYTivXlcasVYGCCdjQ=/2052x320/filters:no_upscale():max_bytes(150000):strip_icc()/Carb_Manager-9e916e2ec1614c9a9e5213534c1184b3.jpg"
@@ -47,7 +47,7 @@ export default function Footer(){
 
             <p><i>Carb Manager's content is for informational and educational purposes only. Our website is not intended to be a substitute for professional</i></p>
             <p><i>medical advice, diagnosis, or treatment.</i></p>
-        </div>
+            </div>
         </>
     )
 }
