@@ -1,4 +1,5 @@
 .box1{
+    width: 100%;
     display: grid;
     margin-top: 100px;
     padding-left: 70px;
@@ -56,4 +57,47 @@
 .box2 img{
     height: 50px;
     width: 100px;
+}
+.box3{
+    margin-top: 150px;
+    display: flex;
+}
+.box3a{
+    margin-left: 100px;
+}
+.box3a h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.box3b img{
+    margin-left: 90%;
+}
+.box4{
+    display: flex;
+}
+.box4a2{
+    background-color: #1BC98E;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: -250px;
+}
+.box4 img{
+margin-left: 100px;
+height: 600px;
+width: 600px;
+border-radius: 20px;
+}
+.box4b{
+    margin-left: 100px;
+    text-align: left;
+}
+.box4b p{
+    text-align: left;
+    line-height: 7px;
+}
+.box4b1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
