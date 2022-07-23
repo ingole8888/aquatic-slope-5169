@@ -10,6 +10,9 @@
     border-radius: 30px;
     font-size: 20px;
 }
+.buttonpart1a:hover{
+    color: red;
+}
 a{
     text-decoration: none;
     color:black;
