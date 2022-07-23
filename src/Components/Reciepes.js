@@ -6,9 +6,7 @@ export default function Reciepes(){
     return(
         <>
         <Navbar/>
-
-       
-        <div className="con1">
+        {/* <div className="con1">
            <div className="con1a">
             <h1>Explore Over 50,000+ Unique Low-</h1>
             <h1>Carb and Keto Recipes</h1>
@@ -23,10 +21,7 @@ export default function Reciepes(){
                 <button>Gluten Free</button>   <button>Quick & Easy</button>   <button>Snacks</button>   <button>Desserts</button>
             </div>
            </div>
-        </div>
-
-
-       
+        </div> */}
         <Footer/>
         </>
     )
