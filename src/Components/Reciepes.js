@@ -7,7 +7,7 @@ export default function Reciepes(){
         <>
         <Navbar/>
 
-        {/* reciepes start */}
+       
         <div className="con1">
            <div className="con1a">
             <h1>Explore Over 50,000+ Unique Low-</h1>
@@ -26,7 +26,7 @@ export default function Reciepes(){
         </div>
 
 
-        {/* reciepes end */}
+       
         <Footer/>
         </>
     )
