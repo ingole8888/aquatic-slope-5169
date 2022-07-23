@@ -359,6 +359,16 @@ export default function IndexBody(){
                 <h5><FaFire/>    50 calories</h5>
                </div>
            </div>
+
+           <div className="box9">
+            <div className="box9a">
+                <h1>Looking for Premium?</h1>
+                <p>Unlock all of Carb Manager's cutting-edge features with a Premium Membership.</p>
+            </div>
+            <div className="box9b">
+                <button>Get Premium</button>
+            </div>
+           </div>
         </>
     )
 }

@@ -19,7 +19,7 @@ export default function Navbar(){
                 <div className={showMedia ? "menupart mobile-menu":"menupart"}>
                     <div><a href="https://www.carbmanager.com/feature-summary">Features</a></div>
                     <div><a href="https://www.carbmanager.com/premium">Premium</a></div>
-                    <div><a href="https://www.carbmanager.com/recipes">Reciepes</a></div>
+                    <div><Link to="/reciepes">Reciepes</Link></div>
                     <div><a href="https://www.carbmanager.com/articles">Articles</a></div>
                     <div><a href="https://www.carbmanager.com/cookbook">CookBook</a></div>
                     <div><a href="https://help.carbmanager.com/">Support</a></div>
@@ -27,7 +27,7 @@ export default function Navbar(){
                 <div className="buttonpart">
                     <div className="buttonpart1">
                     <div><Link to="/login">Log In</Link></div>
-                    <div><Link to="/signup" className="buttonjoin">Join for Free</Link></div>
+                    <div className="buttonpart1a"><Link to="/signup" className="buttonjoin">Join for Free</Link></div>
                     </div>
                     <div className="hamburger-menu" onclick={() => setShowMedia(!showMedia)}>
                          <GiHamburgerMenu/>
