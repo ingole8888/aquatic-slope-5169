@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Building Clone Of Site Carb Manager.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Masai School construct week project.
+I am a students of the Masai School Web-17 batch. Currently, currently I’m in RCT101. In the Masai School, at the end of every unit, the last week is called construct week. In which every student of Masai School has to build a project.
 
-## Available Scripts
+I had a week to build the project.
 
-In the project directory, you can run:
+I use ReactJS, HTML, CSS, Bootstrap, and Java-script to build the project.
 
-### `npm start`
+Landing Page.
+This is the landing page of the 1mg clone site exactly the same as the Carb Manager.com site. We tried to give some functionally such as carousel Sliding, Tab Switching, Login page, Hover Effects, On-scroll shrinking.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On the landing page, we create a navbar and search bar. If the user clicks on the menu it will show the pages of the section.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Login Page.
+On the login page, there are two options login and create an account. If you are a new user you have to click on create the account If you have already an account just enter the registered email and password. And you logged in into website. If you forget your password there is option of forget password you just click on it and you able recover your password form the link provided by us on your registered Email id.
 
-### `npm test`
+There is another way of login on login page that is login with google if you click on login with google button then you are directly login with your email id with google authentication.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you click on sign in with google then following page will be open and you are logged in with your email id.
+If you click on email id then it collect data from google and redirect you on home page.
 
-### `npm run build`
+Footer:
+This is the footer page we created multiple options where users can connect such as Email, Facebook, Pint-rest and Twitter. Also, we have added a Return policy, about the 1mg.com and Terms of us.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deployment link of Project :
+https://fascinating-blini-865605.netlify.app/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Githublink :
+https://github.com/ingole8888/aquatic-slope-5169
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Blog Link :
+https://medium.com/@ingole8888/building-clone-of-site-carb-manager-com-c0e0f8adda79
