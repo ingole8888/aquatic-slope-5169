@@ -292,6 +292,73 @@ export default function IndexBody(){
                 </div>
             </div>
            </div>
+           <div className="box6">
+           <h1>Explore Low-Carb Foods</h1>
+           <p>View in-depth nutrition info on millions of foods</p>
+           </div>
+
+           <div className="box8">
+               <div className="box8a">
+                <div className="box8a1">
+                    <img
+                    src="https://images.carbmanager.com/nr3rp73P9-Shnx8iqX6kmnPiqjnSh-KaW45jCpeB0P4/resize:fit:160/L2Fzc2V0cy5jYXJibWFuYWdlci5jb20vby9zdGF0aWMlMkZmb29kSWNvbnMlMkZpNzAyLnBuZz9hbHQ9bWVkaWE"
+                    alt=""
+                    />
+                </div>
+                <h2>Carbs Ib Broccoli, Cooked from fresh</h2>
+                <h5><FaFire/>    50 calories</h5>
+               </div>
+               <div className="box8a">
+                <div className="box8a1">
+                    <img
+                    src="https://images.carbmanager.com/DfAEGnVtk2rw9bFh-SlrvCcKlMw5Rm7ewBZ-cF-d_qM/resize:fit:160/L2Fzc2V0cy5jYXJibWFuYWdlci5jb20vby9zdGF0aWMlMkZmb29kSWNvbnMlMkZpNzM3LnBuZz9hbHQ9bWVkaWE"
+                    alt=""
+                    />
+                </div>
+                <h2>Carbs in Tomato Raw</h2>
+                <h5><FaFire/>    50 calories</h5>
+               </div>
+               <div className="box8a">
+               <div className="box8a1">
+                    <img
+                    src="https://images.carbmanager.com/izQ5d6A9wt9FXY7fU9MHC6Hg6TWLUfgcbW3OzBMVk28/resize:fit:160/L2Fzc2V0cy5jYXJibWFuYWdlci5jb20vby9zdGF0aWMlMkZmb29kSWNvbnMlMkZpNDA1LnBuZz9hbHQ9bWVkaWE"
+                    alt=""
+                    />
+                </div>
+                <h2>Carbs in Almond, Dry roasted, Salted</h2>
+                <h5><FaFire/>    50 calories</h5>
+               </div>
+               <div className="box8a">
+               <div className="box8a1">
+                    <img
+                    src="https://images.carbmanager.com/6bPJ4FnT1nL1nsMyvQ1TW_zd2dKKleuPq1Y-wgoW0x4/resize:fit:160/L2Fzc2V0cy5jYXJibWFuYWdlci5jb20vby9zdGF0aWMlMkZmb29kSWNvbnMlMkZpNzAzLnBuZz9hbHQ9bWVkaWE"
+                    alt=""
+                    />
+                </div>
+                <h2>Carbs in Carrots, Raw</h2>
+                <h5><FaFire/>    50 calories</h5>
+               </div>
+               <div className="box8a">
+               <div className="box8a1">
+                    <img
+                    src="https://images.carbmanager.com/vk7pjfcyS2tJSyR7pw93kEOJj4YDKY1MGWlNLwriDHU/resize:fit:160/L2Fzc2V0cy5jYXJibWFuYWdlci5jb20vby9zdGF0aWMlMkZmb29kSWNvbnMlMkZpNjAzLnBuZz9hbHQ9bWVkaWE"
+                    alt=""
+                    />
+                </div>
+                <h2>Carbs in Avacado, Black skin (Hass)</h2>
+                <h5><FaFire/>    50 calories</h5>
+               </div>
+               <div className="box8a">
+               <div className="box8a1">
+                    <img
+                    src="https://images.carbmanager.com/wrVbaRcBuVaTCO-gbfIcdRlDqEn8AdSiYaU5A-JmpeA/resize:fit:160/L2Fzc2V0cy5jYXJibWFuYWdlci5jb20vby9zdGF0aWMlMkZmb29kSWNvbnMlMkZpMzAyLnBuZz9hbHQ9bWVkaWE"
+                    alt=""
+                    />
+                </div>
+                <h2>Carbs in Eggs, Cooked</h2>
+                <h5><FaFire/>    50 calories</h5>
+               </div>
+           </div>
         </>
     )
 }
